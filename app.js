@@ -30,7 +30,7 @@ app.get("/home", function (req, res) {
     } else {
       console.log("rows", rows);
       //console.log("fields", fields);
-      console.log("Success Query");
+      console.log("Success Query executed");
     }
   });
 });
